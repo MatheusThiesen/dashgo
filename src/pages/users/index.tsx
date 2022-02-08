@@ -23,7 +23,7 @@ import { IoIosRefresh } from "react-icons/io";
 import { Header } from "../../components/Header";
 import Pagination from "../../components/Pagination";
 import { Sidebar } from "../../components/Sidebar";
-import { getUsers, User, useUsers } from "../../service/hooks/useUsers";
+import { User, useUsers } from "../../service/hooks/useUsers";
 import { useState } from "react";
 import { queryClient } from "../../service/queryClient";
 import { api } from "../../service/api";
